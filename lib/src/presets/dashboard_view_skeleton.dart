@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/smart_skeleton.dart';
 import '../models/skeleton_config.dart';
 
+//dashboard_view_skeleton.dart
 class DashboardViewSkeleton extends StatelessWidget {
   final SkeletonConfig config;
   final EdgeInsets padding;
@@ -243,7 +244,8 @@ class DashboardViewSkeleton extends StatelessWidget {
                             height: 16.0,
                             margin: const EdgeInsets.only(right: 48.0),
                             decoration: BoxDecoration(
-                              color: Theme.of(context).brightness ==
+                              color:
+                                  Theme.of(context).brightness ==
                                       Brightness.light
                                   ? Colors.grey[200]
                                   : Colors.grey[700],
@@ -255,7 +257,8 @@ class DashboardViewSkeleton extends StatelessWidget {
                             width: 120.0,
                             height: 12.0,
                             decoration: BoxDecoration(
-                              color: Theme.of(context).brightness ==
+                              color:
+                                  Theme.of(context).brightness ==
                                       Brightness.light
                                   ? Colors.grey[200]
                                   : Colors.grey[700],
