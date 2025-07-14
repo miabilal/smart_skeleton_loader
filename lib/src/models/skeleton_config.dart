@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+//class for config
 class SkeletonConfig {
   final Color shimmerColor;
   final Color highlightColor;
